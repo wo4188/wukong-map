@@ -1,0 +1,19 @@
+/* 全局 mixin */
+
+// 单行文本省略(元素需设置固定宽度)
+@mixin singleline-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本省略(固定行数)
+@mixin multiline-ellipsis($rowCount: 2) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $rowCount;
+
+  /* 强制 长文本断句换行 */
+  word-break: break-all;
+}
