@@ -27,7 +27,7 @@ export class MapManager {
   #markerLayer?: L.LayerGroup;
 
   #markerTmpl?: string;
-  #popupTmpl?: string;
+  #markerPopupTmpl?: string;
 
   debug: boolean;
 
@@ -39,6 +39,7 @@ export class MapManager {
 
   async #loadTmpls() {
     this.#markerTmpl = await tmplApi.getMarkerTmpl();
+    this.#markerPopupTmpl = await tmplApi.getMarkerPopupTmpl();
   }
 
   init(target: HTMLElement) {
@@ -92,13 +93,18 @@ export class MapManager {
   }
 
   renderMarkers(arr: IMarker[]) {
-    console.log(arr);
     if (!this.map) return;
 
     this.#markerLayer?.clearLayers();
 
     const markers = arr.map((item) => {
-      const { x, y, name, iconUrl } = item;
+      const {
+        x, //
+        y,
+        name,
+        desc,
+        iconUrl,
+      } = item;
       const htmlStr = ejs.render(this.#markerTmpl ?? '', { name, iconUrl });
 
       const marker = L.marker(L.latLng(y, x), {
@@ -106,6 +112,16 @@ export class MapManager {
           html: htmlStr,
         }),
       });
+
+      marker.bindPopup(
+        L.popup({
+          content: ejs.render(this.#markerPopupTmpl ?? '', {
+            name,
+            iconUrl,
+            desc,
+          }),
+        }),
+      );
 
       return marker;
     });

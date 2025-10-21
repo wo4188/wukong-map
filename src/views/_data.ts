@@ -3,7 +3,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-20T09:43:37+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货</p><p>击杀黑熊精后回来可以买珍宝【不求人】</p>',
     fullName: '土地庙-黑风洞-见谛峰',
     gameMapId: 48,
@@ -35,7 +35,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:19:59+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p>',
+    desc: '<p>[注意事项]</p>',
     fullName: '土地庙-黑风洞-洞外',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -66,7 +66,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:56+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p><p>土地庙的披挂铸造解锁制作【青铜套装】<br></p>',
+    desc: '<p>[注意事项]</p><p>土地庙的披挂铸造解锁制作【青铜套装】<br></p>',
     fullName: '土地庙-黑风洞-洞内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -97,7 +97,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:14:15+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项] 黑风山过完后在黑风山任意土地庙购买珍玩【不求人】小幅增加气力上限</p><p>酒葫芦强化相关NPC申猴在这个土地庙附近</p>',
     fullName: '土地庙-翠竹林-白雾泽',
     gameMapId: 48,
@@ -129,7 +129,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:11:33+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>推荐优先走右侧上山道路点化葫芦。回来就可以在土地庙拾遗之前击杀的幽魂的魂魄了。</p><p>击杀一个蛇人175经验，右手上坡过桥1个，打完右转跳下去1个，再沿路前进还有2个，一共700经验</p>',
     fullName: '土地庙-翠竹林-蛇径',
     gameMapId: 48,
@@ -161,7 +161,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:07:56+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>土地庙解锁兵器铸造，初始武器柳木棍可以进行升级。</p><p>在披挂铸造解锁制作【锦鳞套装】。</p><p>提示，隐藏地图的商店库存是独立的！并且此处的货殖还有【蚕丝】【妖核】出售</p>',
     fullName: '土地庙-隐·旧观音禅院',
     gameMapId: 48,
@@ -193,7 +193,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:05:19+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]记得前面左转找马哥说个话</p>',
+    desc: '<p>[注意事项]记得前面左转找马哥说个话</p>',
     fullName: '土地庙-翠竹林-后山',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -224,7 +224,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:03:19+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>来到观音禅院，土地庙解锁“披挂铸造”功能，制作【行者套装】。</p><p>先搜刮下院子，左前方角落里有个宝箱，然后继续往前走打灵虚子。</p>',
     fullName: '土地庙-苍狼林-观音禅院',
     gameMapId: 48,
@@ -256,7 +256,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T15:30:54+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]:在第二个土地庙解锁了新功能。</p><p>修行-法术整备：当获得的法术技能越来越多后，在这里更换装备中的法术。</p><p>修行-天赋重修：可随时免费洗技能点。可以一下全部洗掉返还所有技能点，也可以有针对性地逐个挑选洗点。</p><p>货殖：就是商店，可以买卖物品。根据需要购买丹药、材料、药材，碎金片可以卖了换钱。<br><br>再入轮回:&nbsp;<br>铸造-披挂升阶: 可对神珍以下等级的披挂进行升阶 升阶后的披挂基础数值将增加</p>',
     fullName: '土地庙-苍狼林-林外',
     gameMapId: 48,
@@ -288,7 +288,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T14:58:08+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货（到达第二幕以后，传送回来会提供上品不求人）</p><p>土地庙的功能会随着游戏进度逐步解锁，初始就有的3个功能是<br></p><p class="MsoNormal">调息：回满血、魔法、葫芦里的酒，同时妖怪们也会刷新复活。<span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal">缩地：可以传送到已解锁的土地庙。</p><p class="MsoNormal"><span style="font-family: var(--van-base-font);">谢礼：领取预购、豪华版奖励的装备，在游戏初期有些帮助。</span></p>',
     fullName: '土地庙-苍狼林-前山',
     gameMapId: 48,
@@ -320,7 +320,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-20T09:03:51+08:00',
     createUserName: '混乱2',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>旁边坛子全打了有灵蕴</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>旁边坛子全打了有灵蕴</p>',
     fullName: '打坐处-苍狼林山亭内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -351,7 +351,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:40+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
     fullName: '打坐处-黑风洞崖岸前',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -382,7 +382,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:10:27+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
     fullName: '打坐处-翠竹林岩洞内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -413,7 +413,7 @@ export const mockMarkers = [
     bestLandmark: true,
     createTime: '2024-08-19T15:57:57+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[奖励]:</p><p>与牯护院战斗过半，土地公会出现并传授你 法术【定身】</p>',
+    desc: '<p>[奖励]:</p><p>与牯护院战斗过半，土地公会出现并传授你 法术【定身】</p>',
     fullName: '头目-牯护院',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -444,7 +444,7 @@ export const mockMarkers = [
     bestLandmark: true,
     createTime: '2024-08-19T15:59:15+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>即演示中出现过的刀狼教头</p><p>[打法心得]</p><p>注意躲避冲锋技，然后如果被点燃记得连续翻滚可以灭火，有持续伤害</p><p>[奖励]:</p><p>【法术】赤潮：<span style="font-family: var(--van-base-font);">神通-变化广智</span></p>',
     fullName: '头目-广智',
     gameMapId: 48,
@@ -476,7 +476,7 @@ export const mockMarkers = [
     bestLandmark: true,
     createTime: '2024-08-19T16:11:56+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[奖励]</p><p>可获得它的精魄</p><p>用柔软的舌头鞭打对手</p>',
+    desc: '<p>[奖励]</p><p>可获得它的精魄</p><p>用柔软的舌头鞭打对手</p>',
     fullName: '头目-波里个浪',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -507,7 +507,7 @@ export const mockMarkers = [
     bestLandmark: true,
     createTime: '2024-08-19T16:16:50+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>注意，这个BOSS有2条血，会二阶段变身</p><p>推荐打法：拉远距离，等白衣秀士突进攻击，闪避之后轻攻击两三下后，继续拉开距离反复如此。</p><p>补充，一阶段先劈棍蓄力三段换血，然后定身打一套，变身广智打一套，不失误就转二阶段了</p><p>二阶段变成蛇只会地面，站得高打不住你，只有剑气能刮你所以立棍教他做人，立棍蓄力一段之后，剑气也打不到你，无脑轮椅过建议打之前改加点立棍和气力条，挨打掉体力</p><p>[奖励]</p><p>武器升级材料【玉垂牙】</p>',
     fullName: '头目-白衣秀士',
     gameMapId: 48,
@@ -539,7 +539,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-20T11:37:08+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>【重要提示！敲完三钟，击杀金池长老猴幽魂将消失，无法获得精魄，请提前击杀】<br></p><p>[奖励]:<span style="font-family: var(--van-base-font);">幽魂精魄、猫晴宝串</span></p><p>[攻略要点]:</p><p>·<span style="font-family: var(--van-base-font);">幽魂</span><span style="font-family: var(--van-base-font);">撞到石碑有长硬直，在石碑旁等待即可。</span></p><p>·建议先打了广智拿变身再打，一直用轻击+劈棍可以无限硬直<span style="font-family: var(--van-base-font);">，怪血不多了就变身广智收掉</span></p><p>打不过先绕走也行，大不了打完灵虚子提升装备后再打他，魂3太刀哥了属于是。</p><p>————————————</p><p>【战斗技巧补充】</p><p>开局可以<span style="font-family: var(--van-base-font);">先等幽魂转身从背后偷袭连续轻棍+劈棍直接打出两段硬直伤害，打完先后退</span><span style="font-family: var(--van-base-font);">，等气力稍恢复（没气力打不出劈棍）可以辅以</span><span style="font-family: var(--van-base-font);">定身法再次打出一段硬直伤害。幽魂一顿连续输出可以拉远距离躲避，记得连续闪避。等幽魂输出后的硬直可以轻棍+劈棍打出一段硬直伤害。多来几次，辅以定身法基本可以搞定，定身法使用4次法力就见底了。</span><br></p>',
     fullName: '头目-幽魂',
     gameMapId: 48,
@@ -571,7 +571,7 @@ export const mockMarkers = [
     bestLandmark: false,
     createTime: '2024-08-19T16:13:05+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[奖励]</p><p>可获得广谋的精魄</p><p>记得转棍化解 远程攻击</p><p>点出减少异常状态的加点 降低难度</p>',
     fullName: '头目-广谋',
     gameMapId: 48,

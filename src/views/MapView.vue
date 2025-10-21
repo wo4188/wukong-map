@@ -20,7 +20,7 @@ function initMap() {
   mapManager.renderZommControl();
 
   setTimeout(() => {
-    mapManager.renderMarkers(mockMarkers as any[]);
+    mapManager.renderMarkers(mockMarkers);
   }, 100);
 }
 

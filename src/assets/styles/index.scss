@@ -44,15 +44,48 @@
       transform: translate3d(-39px, -27px, 0);
 
       .marker-name {
-        text-shadow: 4px 2px 8px #666;
-
-        font-weight: bold;
+        color: #fff;
+        text-shadow: 2px 2px 2px #333;
       }
 
       img {
         width: 30px;
         height: 30px;
       }
+    }
+
+    .leaflet-popup-content-wrapper .marker-popup-wrapper {
+      .popup-name {
+        display: flex;
+        align-items: center;
+
+        height: 100%;
+
+        color: #fff;
+
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1;
+
+        img {
+          width: 30px;
+          height: 30px;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .leaflet-popup-content-wrapper,
+    .leaflet-popup-tip {
+      color: #c6c6c6;
+      background-color: #222226;
+    }
+
+    .leaflet-popup-close-button {
+      top: 10px;
+      right: 10px;
+
+      font-size: 24px;
     }
   }
 }
