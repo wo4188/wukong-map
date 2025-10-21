@@ -16,6 +16,7 @@ function initMap() {
 
   mapManager.init(mapBoxRef.value);
   mapManager.renderTile();
+  mapManager.renderZommControl();
 }
 
 onMounted(() => {

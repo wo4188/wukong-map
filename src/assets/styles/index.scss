@@ -1,2 +1,37 @@
 @use "./reset.scss" as *;
 @use "./base.scss" as *;
+
+#app {
+  overflow: hidden;
+
+  .leaflet-container {
+    background-color: var(--map-bg-color);
+
+    .leaflet-control-zoom {
+      position: fixed;
+      right: 20px;
+      bottom: 200px;
+
+      border: none;
+
+      a {
+        width: 40px;
+        height: 40px;
+
+        border: none;
+
+        &.leaflet-control-zoom-in {
+          margin-bottom: 20px;
+
+          background: url("../images/mapZoomPlus.png");
+          background-size: cover;
+        }
+
+        &.leaflet-control-zoom-out {
+          background: url("../images/mapZoomReduce.png");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

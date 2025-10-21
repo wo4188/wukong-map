@@ -18,6 +18,8 @@ const tileUrlTemplateMap = new Map([
 export class MapManager {
   map?: L.Map;
   #tileLayer?: L.TileLayer;
+  zoomControl?: L.Control.Zoom;
+
   debug: boolean;
 
   constructor(debug: boolean = false) {
@@ -31,7 +33,7 @@ export class MapManager {
     this.map = L.map(target, {
       ...ZOOM_LIMIT,
       crs: L.CRS.Simple, // 笛卡尔(平面直角)坐标系
-      zoomControl: false, // 左上角的缩放控件
+      zoomControl: false, // 默认的缩放控件(左上角)
       attributionControl: false,
 
       // 后续会调用 setView(在 renderTile 方法中) 统一设置
@@ -63,5 +65,17 @@ export class MapManager {
     this.#tileLayer.addTo(this.map);
 
     this.map.setView([-0.5, 0.5], 10); // 设置 视图中心点/缩放
+  }
+
+  renderZommControl() {
+    if (!this.map) return;
+
+    this.zoomControl = L.control.zoom({
+      position: 'bottomright',
+      zoomInText:'',
+      zoomOutText:'',
+    });
+
+    this.zoomControl.addTo(this.map);
   }
 }
