@@ -33,5 +33,26 @@
         }
       }
     }
+
+    .leaflet-marker-icon .marker-wrapper {
+      display: flex;
+      align-items: center;
+      flex-flow: column;
+
+      min-width: 90px;
+
+      transform: translate3d(-39px, -27px, 0);
+
+      .marker-name {
+        text-shadow: 4px 2px 8px #666;
+
+        font-weight: bold;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
 }
