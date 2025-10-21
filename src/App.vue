@@ -1,11 +1,18 @@
 <script setup lang="ts">
-//
+import Mapview from '@/views/MapView.vue';
 </script>
 
 <template>
-  <main>cc You did it!</main>
+  <main class="container">
+    <Mapview />
+  </main>
 </template>
 
 <style lang="scss">
-//
+.container {
+  position: relative;
+
+  width: 100vw;
+  height: 100vh;
+}
 </style>
