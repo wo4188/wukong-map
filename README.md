@@ -1,5 +1,9 @@
 # wukong-map
 
+> vue@3.5 + vite@7.1 + ts + leaflet@1.9.4 + ejs@3.1.10
+
+> [项目来源](https://github.com/EricWXY/wukong-map) 感谢🎉🎉🎉
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
