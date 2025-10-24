@@ -1,5 +1,5 @@
 <template>
-  <div class="map-wrapper" ref="mapBoxRef"></div>
+  <div class="map-view-wrapper" ref="mapBoxRef"></div>
 </template>
 
 <script setup lang="ts">
@@ -30,7 +30,7 @@ onMounted(() => {
 </script>
 
 <style lang="scss" scoped>
-.map-wrapper {
+.map-view-wrapper {
   position: absolute;
   z-index: 1;
 

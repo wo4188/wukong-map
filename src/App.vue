@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import Mapview from '@/views/MapView.vue';
+import MapView from '@/views/MapView.vue';
+import UiView from '@/views/UiView.vue';
 </script>
 
 <template>
   <main class="container">
-    <Mapview />
+    <map-view />
+    <ui-view />
   </main>
 </template>
 

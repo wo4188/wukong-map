@@ -3,7 +3,10 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import ejs from 'ejs';
 
-import type { IMarker } from '../types';
+import {
+  DEFAULT_MAP_ID, //
+  type MapMarker,
+} from '@/types';
 
 import { tmplApi } from '@/api';
 
@@ -11,12 +14,10 @@ const ZOOM_LIMIT = { maxZoom: 12, minZoom: 9 } as const; // 跟瓦片素材一�
 const Tile_URL_TEMPLATE_01 = `maps/{id}/{z}/{x}/{y}.webp` as const;
 const Tile_URL_TEMPLATE_02 = `maps/{id}/{z}/{x}_{y}.webp` as const;
 
-const DEFAULT_MAP_ID = '48' as const;
-
 const tileUrlTemplateMap = new Map([
-  ['48', Tile_URL_TEMPLATE_01],
-  ['49', Tile_URL_TEMPLATE_01],
-  ['49', Tile_URL_TEMPLATE_02],
+  [48, Tile_URL_TEMPLATE_01],
+  [49, Tile_URL_TEMPLATE_01],
+  [61, Tile_URL_TEMPLATE_02],
 ]);
 
 export class MapManager {
@@ -59,7 +60,7 @@ export class MapManager {
     }
   }
 
-  renderTile(id: string = DEFAULT_MAP_ID) {
+  renderTile(id: number = DEFAULT_MAP_ID) {
     if (!this.map) return;
 
     if (this.#tileLayer) {
@@ -73,7 +74,7 @@ export class MapManager {
     const urlTemplate = tileUrlTemplateMap.get(id) ?? Tile_URL_TEMPLATE_01;
     this.#tileLayer = L.tileLayer(urlTemplate, {
       ...ZOOM_LIMIT,
-      id, // 自定义瓦片图层ID
+      id: `${id}`, // 自定义瓦片图层ID
     });
     this.#tileLayer.addTo(this.map);
 
@@ -92,7 +93,7 @@ export class MapManager {
     this.#zoomControl.addTo(this.map);
   }
 
-  renderMarkers(arr: IMarker[]) {
+  renderMarkers(arr: MapMarker[]) {
     if (!this.map) return;
 
     this.#markerLayer?.clearLayers();
