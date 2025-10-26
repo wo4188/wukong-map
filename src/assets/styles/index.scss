@@ -37,6 +37,11 @@
       }
     }
 
+    .leaflet-marker-icon {
+      border: none;
+      background-color: transparent;
+    }
+
     .leaflet-marker-icon .marker-wrapper {
       display: flex;
       align-items: center;
