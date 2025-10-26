@@ -23,7 +23,7 @@ export interface MapListItem {
   regionName: string;
 }
 
-export interface MarkerCatalogGroupItem {
+export interface MarkerCatalogItem {
   id: number;
   name: string;
   iconUrl: string;

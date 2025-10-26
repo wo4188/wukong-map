@@ -21,7 +21,7 @@ const tileUrlTemplateMap = new Map([
 ]);
 
 export class MapManager {
-  map?: L.Map;
+  #map?: L.Map;
   #zoomControl?: L.Control.Zoom;
 
   #tileLayer?: L.TileLayer;
@@ -43,8 +43,12 @@ export class MapManager {
     this.#markerPopupTmpl = await tmplApi.getMarkerPopupTmpl();
   }
 
+  get isMapReady() {
+    return !!this.#map;
+  }
+
   init(target: HTMLElement) {
-    this.map = L.map(target, {
+    this.#map = L.map(target, {
       ...ZOOM_LIMIT,
       crs: L.CRS.Simple, // 笛卡尔(平面直角)坐标系
       zoomControl: false, // 默认的缩放控件(左上角)
@@ -56,12 +60,12 @@ export class MapManager {
     });
 
     if (this.debug) {
-      this.map.on('click', (e) => console.warn('click 坐标', e.latlng));
+      this.#map.on('click', (e) => console.warn('click 坐标', e.latlng));
     }
   }
 
   renderTile(id: number = DEFAULT_MAP_ID) {
-    if (!this.map) return;
+    if (!this.#map) return;
 
     if (this.#tileLayer) {
       this.#markerLayer?.clearLayers();
@@ -76,25 +80,25 @@ export class MapManager {
       ...ZOOM_LIMIT,
       id: `${id}`, // 自定义瓦片图层ID
     });
-    this.#tileLayer.addTo(this.map);
+    this.#tileLayer.addTo(this.#map);
 
     // 设置 视图中心点/缩放([纬度y,经度x]，缩放级别)
-    this.map.setView([-0.5, 0.5], 10);
+    this.#map.setView([-0.5, 0.5], 10);
   }
 
   renderZommControl() {
-    if (!this.map) return;
+    if (!this.#map) return;
 
     this.#zoomControl = L.control.zoom({
       position: 'bottomright',
       zoomInText: '',
       zoomOutText: '',
     });
-    this.#zoomControl.addTo(this.map);
+    this.#zoomControl.addTo(this.#map);
   }
 
   renderMarkers(arr: MapMarker[]) {
-    if (!this.map) return;
+    if (!this.#map) return;
 
     this.#markerLayer?.clearLayers();
 
@@ -128,6 +132,6 @@ export class MapManager {
     });
 
     this.#markerLayer = L.layerGroup(markers);
-    this.#markerLayer.addTo(this.map);
+    this.#markerLayer.addTo(this.#map);
   }
 }

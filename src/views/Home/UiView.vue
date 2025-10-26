@@ -1,7 +1,7 @@
 <template>
   <div class="ui-view-wrapper">
     <div class="selector-block">
-      <!-- TODO 添加 logo 图片 -->
+      <img class="nav-logo" src="@/assets/images/logo.png" alt="" />
 
       <map-selector
         :items="mapStore.regionList"
@@ -12,12 +12,12 @@
 
     <div class="marker-catalogs-block">
       <marker-group
-        v-for="item in markerCatalogGroups"
-        :key="item.id"
+        v-for="(item, idx) in markerCatalogGroups"
+        :key="`${idx}-${item.groupName}`"
         :title="item.groupName"
         :items="item.landmarkCatalogs"
-        :selected-ids="[3266, 3279]"
-        @select="() => {}"
+        :selected-catalogs="mapStore.catalogMarkerNames"
+        @select="handleMarkerGroupSelect"
       />
     </div>
   </div>
@@ -26,19 +26,32 @@
 <script setup lang="ts">
 import MapSelector from '@/components/mapSelector/index.vue';
 import MarkerGroup from '@/components/markerGroup/index.vue';
-import type { MarkerCatalogGroupItem } from '@/types';
+import type { MarkerCatalogItem } from '@/types';
 import { useMapStore } from '@/stores';
+
+type MarkerCatalogGroup = {
+  groupName: string;
+  landmarkCatalogs: MarkerCatalogItem[];
+};
 
 const mapStore = useMapStore();
 
-const markerCatalogGroups = computed<any[]>(() => {
-  // console.log('xxx ', mapStore.regionInfo);
+const markerCatalogGroups = computed<MarkerCatalogGroup[]>(() => {
   return mapStore.regionInfo?.landmarkCatalogGroups ?? [];
 });
 
-onMounted(async () => {
-  await mapStore.loadRegionList();
-  await mapStore.loadRegionInfo();
+const handleMarkerGroupSelect = (name: string) => {
+  if (mapStore.catalogMarkerNames.includes(name)) {
+    mapStore.removeCatalogMarker(name);
+  } else {
+    mapStore.addCatalogMarker(name);
+  }
+};
+
+onMounted(() => {
+  mapStore.loadRegionList();
+  mapStore.loadRegionInfo();
+  mapStore.loadMarkerList();
 });
 </script>
 
@@ -46,25 +59,29 @@ onMounted(async () => {
 .ui-view-wrapper {
   position: absolute;
   z-index: 2;
-  width: 344px;
-  height: 100%;
-  background-color: #222226;
-  padding: 20px 16px;
 
   display: flex;
   flex-flow: column;
+
+  width: 344px;
+  height: 100%;
+  padding: 20px 16px;
+
+  background-color: #222226;
 
   > * + * {
     margin-bottom: 20px;
   }
 
   .nav-logo {
-    width: 100%;
     display: block;
+
+    width: 100%;
   }
 
   .selector-block {
     position: relative;
+
     width: 100%;
   }
 

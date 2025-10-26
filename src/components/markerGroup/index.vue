@@ -8,8 +8,8 @@
         v-for="item in items"
         :key="item.id"
         class="marker-group-item"
-        :class="{ 'is-selected': selectedIds?.includes(item.id) }"
-        @click="$emit('select', item.id)"
+        :class="{ 'is-selected': selectedCatalogs?.includes(item.name) }"
+        @click="$emit('select', item.name)"
       >
         <img :src="item.iconUrl" alt="" />
         <span>{{ item.name }}</span>
@@ -20,9 +20,7 @@
 </template>
 
 <script setup lang="ts">
-import type {
-  MarkerCatalogGroupItem, //
-} from '@/types';
+import type { MarkerCatalogItem } from '@/types';
 
 defineOptions({
   name: 'MarkerGroup',
@@ -30,12 +28,12 @@ defineOptions({
 
 defineProps<{
   title: string;
-  items: MarkerCatalogGroupItem[];
-  selectedIds?: number[];
+  items: MarkerCatalogItem[];
+  selectedCatalogs: string[];
 }>();
 
 defineEmits<{
-  select: [id: number];
+  select: [name: string];
 }>();
 </script>
 

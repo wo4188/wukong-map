@@ -1,5 +1,8 @@
 import { http } from '@/utils';
-import type { MapListItem } from '@/types';
+import type {
+  MapListItem, //
+  MapMarker,
+} from '@/types';
 
 const PREFIX = '/api/map';
 
@@ -8,7 +11,16 @@ export function getRegionList() {
 }
 
 export function getRegionInfo(id: number) {
-  return http.get(`${PREFIX}/regionInfo`, {
+  return http.get<unknown, Record<string, any>>(`${PREFIX}/regionInfo`, {
     params: { id },
+  });
+}
+
+/**
+ * @param names 用逗号分隔 'xx1,xx2,xx3'
+ */
+export function getMarkerList(names: string) {
+  return http.get<unknown, MapMarker[]>(`${PREFIX}/markerList`, {
+    params: { names },
   });
 }

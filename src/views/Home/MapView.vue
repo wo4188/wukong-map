@@ -5,7 +5,6 @@
 <script setup lang="ts">
 import { MapManager } from '@/logics/MapManager';
 import { useMapStore } from '@/stores';
-// import { mockMarkers } from './_data';
 
 const mapStore = useMapStore();
 
@@ -21,10 +20,7 @@ function initMap() {
   mapManager.init(mapBoxRef.value);
   mapManager.renderTile();
   mapManager.renderZommControl();
-
-  setTimeout(() => {
-    // mapManager.renderMarkers(mockMarkers);
-  }, 100);
+  mapManager.renderMarkers(mapStore.markerList);
 }
 
 onMounted(() => {
@@ -35,6 +31,15 @@ watch(
   () => mapStore.mapId,
   (id) => {
     mapManager.renderTile(id);
+  },
+);
+
+watch(
+  () => mapStore.markerList,
+  (markers) => {
+    setTimeout(() => {
+      mapManager.renderMarkers(markers);
+    }, 400);
   },
 );
 </script>
