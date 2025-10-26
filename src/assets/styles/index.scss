@@ -42,7 +42,8 @@
       align-items: center;
       flex-flow: column;
 
-      min-width: 90px;
+      width: max-content;
+      min-width: 110px;
 
       transform: translate3d(-39px, -27px, 0);
 
@@ -57,23 +58,25 @@
       }
     }
 
+    .leaflet-popup-content-wrapper > .leaflet-popup-content {
+      width: 320px !important;
+    }
+
     .leaflet-popup-content-wrapper .marker-popup-wrapper {
       .popup-name {
         display: flex;
         align-items: center;
 
-        height: 100%;
-
         color: #fff;
 
-        font-size: 16px;
+        font-size: 14px;
         font-weight: var(--font-weight-bold);
         line-height: 1;
 
         img {
-          width: 30px;
-          height: 30px;
-          margin-left: 10px;
+          width: 20px;
+          height: 20px;
+          margin-left: 6px;
         }
       }
     }

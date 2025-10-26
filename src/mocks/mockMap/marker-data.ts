@@ -3,7 +3,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:43:37+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货</p><p>击杀黑熊精后回来可以买珍宝【不求人】</p>',
     fullName: '土地庙-黑风洞-见谛峰',
     gameMapId: 48,
@@ -36,7 +36,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:19:59+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p>',
+    desc: '<p>[注意事项]</p>',
     fullName: '土地庙-黑风洞-洞外',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -68,7 +68,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:56+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p><p>土地庙的披挂铸造解锁制作【青铜套装】<br></p>',
+    desc: '<p>[注意事项]</p><p>土地庙的披挂铸造解锁制作【青铜套装】<br></p>',
     fullName: '土地庙-黑风洞-洞内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -100,7 +100,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:14:15+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项] 黑风山过完后在黑风山任意土地庙购买珍玩【不求人】小幅增加气力上限</p><p>酒葫芦强化相关NPC申猴在这个土地庙附近</p>',
     fullName: '土地庙-翠竹林-白雾泽',
     gameMapId: 48,
@@ -133,7 +133,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:11:33+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>推荐优先走右侧上山道路点化葫芦。回来就可以在土地庙拾遗之前击杀的幽魂的魂魄了。</p><p>击杀一个蛇人175经验，右手上坡过桥1个，打完右转跳下去1个，再沿路前进还有2个，一共700经验</p>',
     fullName: '土地庙-翠竹林-蛇径',
     gameMapId: 48,
@@ -166,7 +166,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:07:56+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>土地庙解锁兵器铸造，初始武器柳木棍可以进行升级。</p><p>在披挂铸造解锁制作【锦鳞套装】。</p><p>提示，隐藏地图的商店库存是独立的！并且此处的货殖还有【蚕丝】【妖核】出售</p>',
     fullName: '土地庙-隐·旧观音禅院',
     gameMapId: 48,
@@ -199,7 +199,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:05:19+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]记得前面左转找马哥说个话</p>',
+    desc: '<p>[注意事项]记得前面左转找马哥说个话</p>',
     fullName: '土地庙-翠竹林-后山',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -231,7 +231,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:03:19+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>来到观音禅院，土地庙解锁“披挂铸造”功能，制作【行者套装】。</p><p>先搜刮下院子，左前方角落里有个宝箱，然后继续往前走打灵虚子。</p>',
     fullName: '土地庙-苍狼林-观音禅院',
     gameMapId: 48,
@@ -264,7 +264,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T15:30:54+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]:在第二个土地庙解锁了新功能。</p><p>修行-法术整备：当获得的法术技能越来越多后，在这里更换装备中的法术。</p><p>修行-天赋重修：可随时免费洗技能点。可以一下全部洗掉返还所有技能点，也可以有针对性地逐个挑选洗点。</p><p>货殖：就是商店，可以买卖物品。根据需要购买丹药、材料、药材，碎金片可以卖了换钱。<br><br>再入轮回:&nbsp;<br>铸造-披挂升阶: 可对神珍以下等级的披挂进行升阶 升阶后的披挂基础数值将增加</p>',
     fullName: '土地庙-苍狼林-林外',
     gameMapId: 48,
@@ -297,7 +297,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T14:58:08+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货（到达第二幕以后，传送回来会提供上品不求人）</p><p>土地庙的功能会随着游戏进度逐步解锁，初始就有的3个功能是<br></p><p class="MsoNormal">调息：回满血、魔法、葫芦里的酒，同时妖怪们也会刷新复活。<span lang="EN-US"><o:p></o:p></span></p><p class="MsoNormal">缩地：可以传送到已解锁的土地庙。</p><p class="MsoNormal"><span style="font-family: var(--van-base-font);">谢礼：领取预购、豪华版奖励的装备，在游戏初期有些帮助。</span></p>',
     fullName: '土地庙-苍狼林-前山',
     gameMapId: 48,
@@ -330,7 +330,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:03:51+08:00',
     createUserName: '混乱2',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>旁边坛子全打了有灵蕴</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p><p>旁边坛子全打了有灵蕴</p>',
     fullName: '打坐处-苍狼林山亭内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -362,7 +362,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:40+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
     fullName: '打坐处-黑风洞崖岸前',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -394,7 +394,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:10:27+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
+    desc: '<p>[地点描述]:坐上去欣赏风景可得一个技能点</p>',
     fullName: '打坐处-翠竹林岩洞内',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -426,7 +426,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-21T18:41:19+08:00',
     createUserName: '混乱2',
-    description: '<p>[奖励物品]:击杀BOSS后出现</p>',
+    desc: '<p>[奖励物品]:击杀BOSS后出现</p>',
     fullName: '宝箱-掣电尾',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -458,7 +458,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:12:06+08:00',
     createUserName: 'Ny丶',
-    description: '<p>[奖励物品]:碎金片×5或棉纱×3</p>',
+    desc: '<p>[奖励物品]:碎金片×5或棉纱×3</p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -490,7 +490,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:20:34+08:00',
     createUserName: '混乱2',
-    description: '<p>[奖励物品]:棉纱×3（物品或不定）</p>',
+    desc: '<p>[奖励物品]:棉纱×3（物品或不定）</p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -522,7 +522,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:20:09+08:00',
     createUserName: '混乱2',
-    description: '<p>[奖励物品]:精石×3</p>',
+    desc: '<p>[奖励物品]:精石×3</p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -554,7 +554,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:12:52+08:00',
     createUserName: '混乱2',
-    description: '<p>[奖励物品]:</p><p>棉纱或精石×2</p><p>碎金片×5</p>',
+    desc: '<p>[奖励物品]:</p><p>棉纱或精石×2</p><p>碎金片×5</p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -586,7 +586,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:12:33+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[奖励物品]:</p><p>碎金片×2&nbsp;<span style="font-family: var(--van-base-font);">精石×3 或 碎金片×5</span></p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
@@ -619,7 +619,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:20:42+08:00',
     createUserName: 'Wishing028',
-    description: '<p>铁中血（精魄强化素材）+碎金片×5 或棉纱*4</p>',
+    desc: '<p>铁中血（精魄强化素材）+碎金片×5 或棉纱*4</p>',
     fullName: '宝箱-铁中血',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -651,7 +651,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:10:54+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p><p>清凉散、伏虎丸×2、益气膏</p><p>或度瘴散，延寿膏，避凶药</p>',
+    desc: '<p>[注意事项]</p><p>清凉散、伏虎丸×2、益气膏</p><p>或度瘴散，延寿膏，避凶药</p>',
     fullName: '宝箱-3样药剂',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -683,7 +683,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:10:41+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[注意事项]</p><p>棺材式样的宝箱，掉落物随机</p>',
+    desc: '<p>[注意事项]</p><p>棺材式样的宝箱，掉落物随机</p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -715,7 +715,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:08:27+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>附近有好几个宝箱，这是<span style="font-family: var(--van-base-font);">个</span><span style="font-family: var(--van-base-font);">护臂</span></p>',
     fullName: '宝箱-[护臂]南海念珠',
     gameMapId: 48,
@@ -748,7 +748,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T15:58:31+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[奖励物品]</p><p>避凶药×2</p><p>碎金片×5</p>',
+    desc: '<p>[奖励物品]</p><p>避凶药×2</p><p>碎金片×5</p>',
     fullName: '宝箱-避凶药×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -780,7 +780,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T15:57:18+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[奖励物品]</p><p>随机掉落</p><p>碎金石×2+<span style="font-family: var(--van-base-font);">精石×3&nbsp;</span><span style="font-family: var(--van-base-font);">或者 碎金石×5</span></p>',
     fullName: '宝箱-材料宝箱',
     gameMapId: 48,
@@ -813,7 +813,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:21:00+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>提高最大气力<br>所有金丹收集5个就是上限，多周目溢出的金丹会变成3000灵韵<br></p>',
     fullName: '仙丹-九转金丹',
     gameMapId: 48,
@@ -845,7 +845,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:26+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>提升法术上限</p><p>所有金丹收集5个就是上限，多周目溢出的金丹会变成3000灵韵</p>',
     fullName: '仙丹-太乙紫金丹',
     gameMapId: 48,
@@ -877,7 +877,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:05:04+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[注意事项]</p><p>可提升生命上限，不要错过</p><p>所有金丹收集5个就是上限，多周目溢出的金丹会变成3000灵韵<br></p>',
     fullName: '仙丹-碧藕金丹',
     gameMapId: 48,
@@ -909,7 +909,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-09-02T09:24:58+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[注意事项]</p><p>补齐全酒食成就的关键道具</p><p>仅限多周目(再开轮回)可获得，从申猴处购买</p><p>价格14400灵韵，效果为战斗中还魂，恢复葫芦的饮用次数</p>',
     fullName: '酒食-净瓶柳叶(再开轮回)',
     gameMapId: 48,
@@ -941,7 +941,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:31:08+08:00',
     createUserName: '素华颜演',
-    description:
+    desc:
       '<p>[注意事项]击败青蛙概率获取或采集植物</p><p>采集植物都有对应的泡酒物品，嫩玉藕不是只有这个位置</p><p>和申猴对话后才会掉酒食，嫩玉藕一开始采不到</p>',
     fullName: '酒食-[泡酒物]嫩玉藕(概率)',
     gameMapId: 48,
@@ -973,7 +973,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:29:57+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[注意事项]</p><p>在申猴这里可以买到【泡酒物】瑶池莲子<br></p><p>喝酒后<span style="font-family: var(--van-base-font);">可以短时间内</span><span style="font-family: var(--van-base-font);">略微持续回血</span></p>',
     fullName: '酒食-瑶池莲子',
     gameMapId: 48,
@@ -1005,7 +1005,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:29:23+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[注意事项]</p><p>打面前的蛇妖救出申猴，得到【泡酒物】胆中珠<br></p><p>饮酒后一定时间内，少许增加毒伤<span style="font-family: var(--van-base-font);">耐</span><span style="font-family: var(--van-base-font);">性</span></p>',
     fullName: '酒食-胆中珠',
     gameMapId: 48,
@@ -1037,7 +1037,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T08:55:20+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[获取方式]:<br>与土地公对话获得</p><p>[用途]:</p><p>可编入快捷栏，非BOSS战时，可以回到最近使用过的上个土地庙</p>',
     fullName: '要紧事物-缩地青符',
     gameMapId: 48,
@@ -1070,7 +1070,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:01:04+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[获取方式]:<br>一个像老鼠的妖精（猴子）藏在河道尽头一个佛头处（旁边是下不去的小池塘），拾取</p><p>[用途]:</p><p>五蕴收集任务必备道具</p>',
     fullName: '要紧事物-色蕴',
     gameMapId: 48,
@@ -1103,7 +1103,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-27T14:36:21+08:00',
     createUserName: '混乱2',
-    description: '<p>[获取方式]:也在箱子里</p>',
+    desc: '<p>[获取方式]:也在箱子里</p>',
     fullName: '珍玩-[珍玩]博山炉',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1134,7 +1134,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-21T11:54:40+08:00',
     createUserName: '杰少9',
-    description: '<p>[获取方式]:击败黑熊精后，在土地庙2400灵蕴购买 二周目打完黑熊精回来可买</p>',
+    desc: '<p>[获取方式]:击败黑熊精后，在土地庙2400灵蕴购买 二周目打完黑熊精回来可买</p>',
     fullName: '珍玩-不求人',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1165,7 +1165,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:36:48+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[获取方式]:</p><p><span style="font-family: var(--van-base-font);">主干道左侧一口钟旁边，开小盒子得到【珍玩】玛瑙罐。</span></p><p><span style="font-family: var(--van-base-font);">[作用]:</span></p><p><span style="font-family: var(--van-base-font);">少许增加防御<br></span></p><p class="MsoNormal"><span lang="EN-US"><o:p></o:p></span></p>',
     fullName: '珍玩-玛瑙罐',
     gameMapId: 48,
@@ -1197,7 +1197,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T23:12:54+08:00',
     createUserName: '清都山水',
-    description: '<p>[获取方式]:</p><p>击败幽魂后获得</p><p>[珍玩]:<br></p><p>些微增加暴击率</p>',
+    desc: '<p>[获取方式]:</p><p>击败幽魂后获得</p><p>[珍玩]:<br></p><p>些微增加暴击率</p>',
     fullName: '珍玩-[珍玩]猫睛宝串',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1228,7 +1228,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-23T03:01:46+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[获取方式]:击败广智后拾取他的武器获得</p><p>[效果]：</p><p>变身刀狼教头·广智</p><p>轻击挥舞火刀，重击蓄势冲刺</p><p>蓄力条满后，闪避+重击使出特殊攻击，</p><p>最多释放2次特殊攻击解除变身</p>',
     fullName: '法宝-变化·赤潮',
     gameMapId: 48,
@@ -1260,7 +1260,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:18:00+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[获取方式]</p><p>击败金池长老后，查看吊着的狼妖，得到【法宝】辟火罩，专门用于打黑熊精。花果山凤翅将军对策刚需。</p><p>多周目时如果已经有了避火罩，则转化为2000灵韵</p>',
     fullName: '法宝-法宝·辟火罩',
     gameMapId: 48,
@@ -1292,7 +1292,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:24:43+08:00',
     createUserName: '混乱2',
-    description: '<p>[获取方式]:击败广谋后获得</p>',
+    desc: '<p>[获取方式]:击败广谋后获得</p>',
     fullName: '精魄-广谋精魄',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1324,7 +1324,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:23:58+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[获取方式]:击败头目波里个浪</p><p>此精魄用小活师强化，强化到顶级会变成神品精魄【波波浪浪】</p>',
     fullName: '精魄-波里个浪精魄',
     gameMapId: 48,
@@ -1357,7 +1357,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T18:07:05+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[获取方式]</p><p>击败幽魂后获取，这个变身非常好用，高伤害+高硬直。</p><p>前期击杀后不能拾取，在后面找到葫芦仙人点化后可以在土地庙里面领取。</p><p>【如在击败金池长老前未击败幽魂，则幽魂消失，后续无法获得幽魂的精魂】</p>',
     fullName: '精魄-幽魂的精魂',
     gameMapId: 48,
@@ -1390,7 +1390,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:20:28+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[获取方式]</p><p>击败宝箱附近的狼妖得到<br></p>',
+    desc: '<p>[获取方式]</p><p>击败宝箱附近的狼妖得到<br></p>',
     fullName: '精魄-狼刺客精魄',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1422,7 +1422,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:13:32+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[相关事件]:<br></p><p>告诉你需要参拜土地庙</p><p>[奖励]:</p><p>缩地青符<br></p>',
     fullName: '人物-土地公(前山)',
     gameMapId: 48,
@@ -1455,7 +1455,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:12:48+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[相关事件]:<br></p><p>参拜土地庙后出现</p><p>[体验]:</p><p>体验一次神通-变身金蝉</p><p>一旦恢复人形，则不可再次变身。</p><p>可购买珍玩[不求人]，增加气力上限（打完第一回之后传送回来才可购买）</p>',
     fullName: '人物-土地公(林外)',
     gameMapId: 48,
@@ -1488,7 +1488,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:16:14+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>申猴会一直待在这里，为玩家提供葫芦方面的升级。</p><div>后面章节也可以回来升级葫芦</div><div>NPC每章结束后会增加可购买商品</div><div>另外青玉葫芦二周目在这里购买</div>',
     fullName: '人物-申猴',
     gameMapId: 48,
@@ -1521,7 +1521,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:10:13+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<div><span style="font-family: var(--van-base-font);">与他对话开启马哥系列支线，会在后面的章节不断遇到他，务必对话到重复，他才会去到下一个位置</span><br></div>',
     fullName: '人物-马哥(位置1)',
     gameMapId: 48,
@@ -1554,7 +1554,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T09:19:04+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>[相关事件]:<br></p><p>以后会多次遇到的NPC，<span style="font-family: var(--van-base-font);">葫芦仙人会点化你的葫芦，然后就可以用葫芦吸收精魄了。和葫芦仙人反复对话直到重复为止。现在你可以回到土地庙拾遗获得幽魂精魄。</span></p><p>[奖励]:</p><p>解锁【吸收精魄】功能</p>',
     fullName: '人物-葫芦仙人(位置1)',
     gameMapId: 48,
@@ -1587,7 +1587,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T15:57:57+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[奖励]:</p><p>与牯护院战斗过半，土地公会出现并传授你 法术【定身】</p>',
+    desc: '<p>[奖励]:</p><p>与牯护院战斗过半，土地公会出现并传授你 法术【定身】</p>',
     fullName: '头目-牯护院',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1619,7 +1619,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T15:59:15+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>即演示中出现过的刀狼教头</p><p>[打法心得]</p><p>注意躲避冲锋技，然后如果被点燃记得连续翻滚可以灭火，有持续伤害</p><p>[奖励]:</p><p>【法术】赤潮：<span style="font-family: var(--van-base-font);">神通-变化广智</span></p>',
     fullName: '头目-广智',
     gameMapId: 48,
@@ -1652,7 +1652,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T16:11:56+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[奖励]</p><p>可获得它的精魄</p><p>用柔软的舌头鞭打对手</p>',
+    desc: '<p>[奖励]</p><p>可获得它的精魄</p><p>用柔软的舌头鞭打对手</p>',
     fullName: '头目-波里个浪',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1684,7 +1684,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T16:16:50+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>注意，这个BOSS有2条血，会二阶段变身</p><p>推荐打法：拉远距离，等白衣秀士突进攻击，闪避之后轻攻击两三下后，继续拉开距离反复如此。</p><p>补充，一阶段先劈棍蓄力三段换血，然后定身打一套，变身广智打一套，不失误就转二阶段了</p><p>二阶段变成蛇只会地面，站得高打不住你，只有剑气能刮你所以立棍教他做人，立棍蓄力一段之后，剑气也打不到你，无脑轮椅过建议打之前改加点立棍和气力条，挨打掉体力</p><p>[奖励]</p><p>武器升级材料【玉垂牙】</p>',
     fullName: '头目-白衣秀士',
     gameMapId: 48,
@@ -1717,7 +1717,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:37:08+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '<p>【重要提示！敲完三钟，击杀金池长老猴幽魂将消失，无法获得精魄，请提前击杀】<br></p><p>[奖励]:<span style="font-family: var(--van-base-font);">幽魂精魄、猫晴宝串</span></p><p>[攻略要点]:</p><p>·<span style="font-family: var(--van-base-font);">幽魂</span><span style="font-family: var(--van-base-font);">撞到石碑有长硬直，在石碑旁等待即可。</span></p><p>·建议先打了广智拿变身再打，一直用轻击+劈棍可以无限硬直<span style="font-family: var(--van-base-font);">，怪血不多了就变身广智收掉</span></p><p>打不过先绕走也行，大不了打完灵虚子提升装备后再打他，魂3太刀哥了属于是。</p><p>————————————</p><p>【战斗技巧补充】</p><p>开局可以<span style="font-family: var(--van-base-font);">先等幽魂转身从背后偷袭连续轻棍+劈棍直接打出两段硬直伤害，打完先后退</span><span style="font-family: var(--van-base-font);">，等气力稍恢复（没气力打不出劈棍）可以辅以</span><span style="font-family: var(--van-base-font);">定身法再次打出一段硬直伤害。幽魂一顿连续输出可以拉远距离躲避，记得连续闪避。等幽魂输出后的硬直可以轻棍+劈棍打出一段硬直伤害。多来几次，辅以定身法基本可以搞定，定身法使用4次法力就见底了。</span><br></p>',
     fullName: '头目-幽魂',
     gameMapId: 48,
@@ -1750,7 +1750,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:13:05+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[奖励]</p><p>可获得广谋的精魄</p><p>记得转棍化解 远程攻击</p><p>点出减少异常状态的加点 降低难度</p>',
     fullName: '头目-广谋',
     gameMapId: 48,
@@ -1783,7 +1783,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T16:19:42+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[打法心得]</p><p>BOSS会化为雾气，注意躲避，不急。</p><p>定身术可将boss从雾气打出来</p><p>[奖励]</p><p>【法术】聚形散气<br></p>',
     fullName: '妖王-黑风大王',
     gameMapId: 48,
@@ -1815,7 +1815,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T16:21:49+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[打法简要]</p><p>黑熊精二阶段会使用火焰攻击，务必先去获得辟火罩后再来打，能简单非常多</p><p>[奖励]</p><p>击败黑熊精后获得“根器-眼看喜”，效果三选一，在土地庙洗点时也可以更换根器效果。</p><p>以及其他大量优质材料奖励</p><p>通关后的画卷放大之后会有对话来解释人物背景。</p>',
     fullName: '妖王-黑熊精',
     gameMapId: 48,
@@ -1847,7 +1847,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T16:03:42+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>[奖励]:</p><p>【头冠】白脸子、【稀有材料】玲珑内丹</p><p>[攻略要点]:</p><p>弱火伤，变身广智后狠狠鞭打</p>',
     fullName: '妖王-灵虚子',
     gameMapId: 48,
@@ -1879,7 +1879,7 @@ export const markerList = [
     bestLandmark: true,
     createTime: '2024-08-19T18:13:29+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>需要在第二章获取了“龙鳞”后，回来对着瀑布互动后触发</p><p>[奖励]麟棍·蟠龙图纸 博山炉 掣电尾 龙珠<br></p><p>[打法]：</p><p>弱点为背上的雷光炉，重击敲倒地后，就在他身右侧轻攻击扫他的炉，能造成大量伤害，基本上3次倒地就打死了</p>',
     fullName: '妖王-赤髯龙',
     gameMapId: 48,
@@ -1911,7 +1911,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:07:38+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '<p>敲响地图的三个钟就可以打这个BOSS。</p><p>当他升到空中时注意，四周会有很多僵尸向金池长老走去，赶紧消灭这些僵尸，不然金池长老会靠僵尸回血。（你攻击僵尸也会给你回血）<br></p><p>[奖励]</p><p>法宝【避火罩】</p><p>[注意]</p><p>击杀金池长老前，有收集需求的一定要先回头打幽魂（如果已经打了或不在意收集的就不用管了），金池长老死后幽魂就会消失，只能下周目见。</p>',
     fullName: '妖王-金池长老',
     gameMapId: 48,
@@ -1943,7 +1943,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:15:09+08:00',
     createUserName: 'Wishing028',
-    description: '<p>用于提升葫芦使用次数</p>',
+    desc: '<p>用于提升葫芦使用次数</p>',
     fullName: '落伽香藤-落伽香藤',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -1975,7 +1975,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:19:15+08:00',
     createUserName: 'Wishing028',
-    description: '<p>在发光的罐子里，打碎后获得，用于升级酒品</p>',
+    desc: '<p>在发光的罐子里，打碎后获得，用于升级酒品</p>',
     fullName: '三冬虫-三冬虫',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2007,7 +2007,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-09-01T23:41:47+08:00',
     createUserName: '正豪小嫣',
-    description: '<p>[获得方式]:第一口大钟往右走石头后面</p>',
+    desc: '<p>[获得方式]:第一口大钟往右走石头后面</p>',
     fullName: '药材-老山参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2039,7 +2039,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-09-01T18:24:49+08:00',
     createUserName: '予星',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-葛蕈',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2071,7 +2071,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-09-01T00:39:29+08:00',
     createUserName: '予星',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-老山参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2103,7 +2103,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-09-01T00:22:35+08:00',
     createUserName: '予星',
-    description: '<p>[获得方式]:</p>',
+    desc: '<p>[获得方式]:</p>',
     fullName: '药材-龙胆',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2135,7 +2135,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-29T22:36:10+08:00',
     createUserName: '十一119',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-龙胆',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2167,7 +2167,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-29T22:26:53+08:00',
     createUserName: '十一119',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-碧藕',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2199,7 +2199,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-29T22:32:41+08:00',
     createUserName: '十一119',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2231,7 +2231,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-21T12:06:22+08:00',
     createUserName: 'Eve_yu',
-    description: '<p>[获得方式]:斜树旁的石头上，有概率获得九叶灵芝草</p>',
+    desc: '<p>[获得方式]:斜树旁的石头上，有概率获得九叶灵芝草</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2263,7 +2263,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T21:19:12+08:00',
     createUserName: '可可68',
-    description: '<p>[获得方式]:河流拐角处的一棵松树旁</p>',
+    desc: '<p>[获得方式]:河流拐角处的一棵松树旁</p>',
     fullName: '药材-龙胆',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2295,7 +2295,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T21:14:55+08:00',
     createUserName: 'Hydrogenf',
-    description: '<p>[获得方式]:地上有个人参，拿起来有个人参怪，打完会掉千年人参(概率掉落)</p>',
+    desc: '<p>[获得方式]:地上有个人参，拿起来有个人参怪，打完会掉千年人参(概率掉落)</p>',
     fullName: '药材-千年人参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2327,7 +2327,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:18:57+08:00',
     createUserName: '巫堵13',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-葛蕈×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2359,7 +2359,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:12:27+08:00',
     createUserName: 'randomGuy\uD83C\uDDE6\uD83C\uDDF7',
-    description:
+    desc:
       '<p><span style="font-family: var(--van-base-font);">[获得方式]:三冬虫旁边</span><br></p>',
     fullName: '药材-老山参',
     gameMapId: 48,
@@ -2392,7 +2392,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:37:03+08:00',
     createUserName: '飘渺鱼',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-龙胆×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2424,7 +2424,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:22:01+08:00',
     createUserName: 'S丶ccc',
-    description: '<p>在路中间柱子下</p>',
+    desc: '<p>在路中间柱子下</p>',
     fullName: '药材-老山参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2456,7 +2456,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:19:12+08:00',
     createUserName: '芜湖！1',
-    description: '<p>[获得方式]:</p>',
+    desc: '<p>[获得方式]:</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2488,7 +2488,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:52:27+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-葛蕈',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2520,7 +2520,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:49:30+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:池塘里采集</p>',
+    desc: '<p>[获得方式]:池塘里采集</p>',
     fullName: '药材-碧藕×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2552,7 +2552,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:46:22+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:采集获得</p>',
+    desc: '<p>[获得方式]:采集获得</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2584,7 +2584,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:37:13+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-老山参×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2616,7 +2616,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:33:02+08:00',
     createUserName: '奈奈无鱼',
-    description: '<p>[获得方式]:河岸边</p>',
+    desc: '<p>[获得方式]:河岸边</p>',
     fullName: '药材-紫芝 x1',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2648,7 +2648,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:20:30+08:00',
     createUserName: '塔野熏',
-    description: '<p>[获得方式]:直接采集</p>',
+    desc: '<p>[获得方式]:直接采集</p>',
     fullName: '药材-龙胆',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2680,7 +2680,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T14:59:31+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:乌鸦怪旁采集</p>',
+    desc: '<p>[获得方式]:乌鸦怪旁采集</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2712,7 +2712,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:09:50+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:</p>',
+    desc: '<p>[获得方式]:</p>',
     fullName: '药材-紫芝',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2744,7 +2744,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:09:28+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:小池塘里</p>',
+    desc: '<p>[获得方式]:小池塘里</p>',
     fullName: '药材-碧藕',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2776,7 +2776,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:01:11+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:采集药材</p>',
+    desc: '<p>[获得方式]:采集药材</p>',
     fullName: '药材-龙胆×2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2808,7 +2808,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T11:00:00+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:河道里采集</p>',
+    desc: '<p>[获得方式]:河道里采集</p>',
     fullName: '药材-碧藕×1',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2840,7 +2840,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T08:50:02+08:00',
     createUserName: '混乱2',
-    description: '<p>[获得方式]:采集有红色果实的药草</p>',
+    desc: '<p>[获得方式]:采集有红色果实的药草</p>',
     fullName: '药材-老山参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2872,7 +2872,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:42:50+08:00',
     createUserName: '丘奇眧变',
-    description: '<p>[获得方式]:采集</p>',
+    desc: '<p>[获得方式]:采集</p>',
     fullName: '药材-碧藕*2',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2904,7 +2904,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:12:02+08:00',
     createUserName: '柯姆白翠',
-    description: '老山参或千年人参',
+    desc: '老山参或千年人参',
     fullName: '药材-老山参',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2936,7 +2936,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:20:01+08:00',
     createUserName: '混乱2',
-    description: '<p>白衣秀士掉落，兵器升级专用材料</p>',
+    desc: '<p>白衣秀士掉落，兵器升级专用材料</p>',
     fullName: '稀罕材料-玉垂牙',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -2968,7 +2968,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:44:00+08:00',
     createUserName: '混乱2',
-    description: '击杀广谋后掉落',
+    desc: '击杀广谋后掉落',
     fullName: '稀罕材料-铁中血',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -3000,7 +3000,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:40:38+08:00',
     createUserName: '混乱2',
-    description: '此地鸦香客概率掉落一个',
+    desc: '此地鸦香客概率掉落一个',
     fullName: '稀罕材料-铁中血(概率)',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -3032,7 +3032,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:39:40+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '这颗是妖王灵虚子的掉落，会自动进入背包。<div>该物品能直接增加属性，需通过第二回遇到的NPC戌狗炼丹，短期内暂时没有作用，但尽量收集起来。</div>',
     fullName: '稀罕材料-玲珑内丹',
     gameMapId: 48,
@@ -3065,7 +3065,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:39:04+08:00',
     createUserName: '混乱2',
-    description:
+    desc:
       '击杀蛤蟆怪【波里个浪】掉落，如果击败BOSS时发生意外强退，有可能导致该物品没进背包，差一个小活师没法升满蛤蟆精魄。如果回档困难的话，二周目再来打一次即可获取。',
     fullName: '稀罕材料-小活师',
     gameMapId: 48,
@@ -3098,7 +3098,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T16:12:40+08:00',
     createUserName: 'Wishing028',
-    description: '打蛇巡司（非骷髅蛇怪）概率获得',
+    desc: '打蛇巡司（非骷髅蛇怪）概率获得',
     fullName: '稀罕材料-玲珑内丹(蛇巡司概率掉落)',
     gameMapId: 48,
     gameMapName: '黑神话悟空_黑风山',
@@ -3130,7 +3130,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T19:33:56+08:00',
     createUserName: '亚瑟阿托利斯',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br></p><p>解锁步骤：</p><p>1.击败虎伥，获得旧拨浪鼓。</p><p>2.坐定风庄土地庙，往后走，过去石门，到左手触发对话。</p><p>3.去双鼠boss战位置，解锁石门，往下走，看到桥往右去，触发对话。</p><p>4.回到标记点，触发对话。即可解锁。</p><p>5.拨浪鼓任务才能到下面</p>',
     fullName: '土地庙-沙门村-井底',
     gameMapId: 49,
@@ -3163,7 +3163,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T19:31:39+08:00',
     createUserName: '贝拉米雯媛',
-    description: '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br></p>',
+    desc: '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br></p>',
     fullName: '土地庙-隐·斯哈里国-沙门界',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3195,7 +3195,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:28:01+08:00',
     createUserName: '利科克安柏',
-    description:
+    desc:
       '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br>可以买寒夜铁，坚骨药，甘草，镔铁矿1个</p>',
     fullName: '土地庙-隐·斯哈哩国-沙门关',
     gameMapId: 49,
@@ -3228,7 +3228,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T16:12:40+08:00',
     createUserName: '连暄夜南',
-    description: '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br></p>',
+    desc: '<p>类似篝火，建议每个土地庙都看下商店和铸造有没有新货<br></p>',
     fullName: '土地庙-黄风阵：镇风门',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3260,7 +3260,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T14:57:46+08:00',
     createUserName: 'b1397kb',
-    description: '<p>解锁新披挂套装-乌金 解锁武器升级路线</p>',
+    desc: '<p>解锁新披挂套装-乌金 解锁武器升级路线</p>',
     fullName: '土地庙-沙门村-村口',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3292,7 +3292,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:54:46+08:00',
     createUserName: 'Wishing028',
-    description:
+    desc:
       '打完虎先锋，血池会被抽干，露出的虎头中间就是地窖入口<div>如果没去镇风门先来的地窖，就会在地窖获得身外身法</div>',
     fullName: '土地庙-卧虎寺-地窖',
     gameMapId: 49,
@@ -3325,7 +3325,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:39:27+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[位置描述]<br></p><p>前面有个佛头，注意收集佛目珠</p>',
+    desc: '<p>[位置描述]<br></p><p>前面有个佛头，注意收集佛目珠</p>',
     fullName: '土地庙-挟魂崖-藏风山凹',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3357,7 +3357,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:38:34+08:00',
     createUserName: 'Wishing028',
-    description: '在大石头后面',
+    desc: '在大石头后面',
     fullName: '土地庙-挟魂崖-枕石坪',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3389,7 +3389,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:24:13+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[位置描述]<br></p>',
+    desc: '<p>[位置描述]<br></p>',
     fullName: '土地庙-黄风阵-定风桥',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3421,7 +3421,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:18:22+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[位置描述]旁边有个老山参<br></p>',
+    desc: '<p>[位置描述]旁边有个老山参<br></p>',
     fullName: '土地庙-卧虎寺-寺门',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3453,7 +3453,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-19T21:08:20+08:00',
     createUserName: 'Wishing028',
-    description: '<p>[位置描述]有空气墙拦截，要打过沙国王才能打开<br></p>',
+    desc: '<p>[位置描述]有空气墙拦截，要打过沙国王才能打开<br></p>',
     fullName: '土地庙-沙门村-不济谷',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3485,7 +3485,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: null,
     createUserName: null,
-    description: '位置：在出了庄园，爬上山后遇到的第一个桥前面<div>一条小路上山</div>',
+    desc: '位置：在出了庄园，爬上山后遇到的第一个桥前面<div>一条小路上山</div>',
     fullName: '土地庙-黄风阵-定风庄',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3517,7 +3517,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: null,
     createUserName: null,
-    description: '<p>往前有个精英怪<br></p>',
+    desc: '<p>往前有个精英怪<br></p>',
     fullName: '土地庙-挟魂崖-碎石台',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3549,7 +3549,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:50:46+08:00',
     createUserName: '情韵森荣',
-    description:
+    desc:
       '<p>打完虎先锋，出门左拐沿边界走一直走到头，悬崖处。打完BOSS忘记打坐可以传送回去打坐<br></p><p>从黄金箱子的位置看过去</p>',
     fullName: '打坐处-沙门界石岩上',
     gameMapId: 49,
@@ -3582,7 +3582,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T18:02:54+08:00',
     createUserName: '衡杏半莲',
-    description: '<p>浪里个波位置，前面崖上。</p>',
+    desc: '<p>浪里个波位置，前面崖上。</p>',
     fullName: '打坐处-沙门村佛亭前',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3614,7 +3614,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:12:03+08:00',
     createUserName: '来一份甜司康饼',
-    description: '<p>[地点描述]:鼠司空后方<br></p>',
+    desc: '<p>[地点描述]:鼠司空后方<br></p>',
     fullName: '打坐处-碎石台谷壑前',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3646,7 +3646,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:07:16+08:00',
     createUserName: '来一份甜司康饼',
-    description:
+    desc:
       '<p style="text-shadow: rgb(177, 177, 181) 0px 0px 0px !important;">猪妖左手边悬崖处<br></p>',
     fullName: '打坐处-枕石坪枯松下',
     gameMapId: 49,
@@ -3679,7 +3679,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T17:04:34+08:00',
     createUserName: '和暖鸿风',
-    description: '<p>[地点描述]:前面还有葫芦仙人，记得聊天<br></p>',
+    desc: '<p>[地点描述]:前面还有葫芦仙人，记得聊天<br></p>',
     fullName: '打坐处-黄风阵佛窟前',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',
@@ -3711,7 +3711,7 @@ export const markerList = [
     bestLandmark: false,
     createTime: '2024-08-20T15:19:17+08:00',
     createUserName: '如意万天',
-    description: '<p>[地点描述]:大门楼梯走上来第三层左边<br></p>',
+    desc: '<p>[地点描述]:大门楼梯走上来第三层左边<br></p>',
     fullName: '打坐处-卧虎寺塑像底',
     gameMapId: 49,
     gameMapName: '黑神话悟空_黄风岭',

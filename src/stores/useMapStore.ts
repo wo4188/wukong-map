@@ -57,7 +57,7 @@ export const useMapStore = defineStore(MAP_STORE, () => {
     mapId,
     regionList,
     regionInfo,
-    markerList: markerList,
+    markerList: shallowReadonly(markerList),
     catalogMarkerNames: computed(() => [...catalogMarkerNames.value]),
     changeMapId,
     loadRegionList,
