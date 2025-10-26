@@ -7,7 +7,7 @@ import autoImport from 'unplugin-auto-import/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/wukong-map/',
   plugins: [
     vue(), //
     vueDevTools(),
