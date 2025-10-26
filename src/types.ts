@@ -22,3 +22,10 @@ export interface MapListItem {
   name: string;
   regionName: string;
 }
+
+export interface MarkerCatalogGroupItem {
+  id: number;
+  name: string;
+  iconUrl: string;
+  landmarksCount: number;
+}

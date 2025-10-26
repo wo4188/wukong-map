@@ -12,6 +12,7 @@ const MAP_STORE = 'MAP_STORE';
 export const useMapStore = defineStore(MAP_STORE, () => {
   const mapId = ref<number>(DEFAULT_MAP_ID); // id<48> ➡️ 区域地图<黑风山>
   const regionList = ref<MapListItem[]>([]);
+  const regionInfo = ref<Record<string, any>>({});
 
   function changeMapId(id: number) {
     if (!MAP_IDS.includes(id as MapId)) {
@@ -19,17 +20,24 @@ export const useMapStore = defineStore(MAP_STORE, () => {
       return;
     }
     mapId.value = id;
-    // TODO 触发 区域地图切换的事件
+
+    loadRegionInfo();
   }
 
   async function loadRegionList() {
     regionList.value = await mapApi.getRegionList();
   }
 
+  async function loadRegionInfo() {
+    regionInfo.value = await mapApi.getRegionInfo(mapId.value);
+  }
+
   return {
     mapId,
     regionList,
+    regionInfo,
     changeMapId,
     loadRegionList,
+    loadRegionInfo,
   };
 });

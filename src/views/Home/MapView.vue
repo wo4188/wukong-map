@@ -4,7 +4,10 @@
 
 <script setup lang="ts">
 import { MapManager } from '@/logics/MapManager';
-import { mockMarkers } from './_data';
+import { useMapStore } from '@/stores';
+// import { mockMarkers } from './_data';
+
+const mapStore = useMapStore();
 
 const mapBoxRef = useTemplateRef('mapBoxRef');
 const mapManager = new MapManager(true);
@@ -20,13 +23,20 @@ function initMap() {
   mapManager.renderZommControl();
 
   setTimeout(() => {
-    mapManager.renderMarkers(mockMarkers);
+    // mapManager.renderMarkers(mockMarkers);
   }, 100);
 }
 
 onMounted(() => {
   initMap();
 });
+
+watch(
+  () => mapStore.mapId,
+  (id) => {
+    mapManager.renderTile(id);
+  },
+);
 </script>
 
 <style lang="scss" scoped>
